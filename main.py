@@ -1,9 +1,9 @@
 #Empity List To Fill Later
 webs =[]
 
-maxnumWebs = 5  # Maxmum Allowed Website
+maxmumWebs = 5  # Maxmum Allowed Website
 
-while maxnumWebs > 0:
+while maxmumWebs > 0:
 
     #Input The New Website
     web = input("Enter Wepsite Name Without https:// : ")
@@ -12,10 +12,10 @@ while maxnumWebs > 0:
     webs.append(f"https://{web.strip().lower()}")
 
     #Decrease 1 from Allowed Websits
-    maxnumWebs-= 1 # maxmumWebs = maxmumWebs - 1
+    maxmumWebs-= 1 # maxmumWebs = maxmumWebs - 1
 
     #Print Add Message
-    print(f"Website Add, {maxnumWebs} Places left")
+    print(f"Website Add, {maxmumWebs} Places left")
 
     #Print List
     print(webs)
